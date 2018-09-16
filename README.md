@@ -19,3 +19,5 @@ yarn run build
 ```
 yarn run lint
 ```
+### v-model再组件上的使用
+
