@@ -1,7 +1,7 @@
 <template>
   <div class="v-model">
     <h1>v-model用于组件</h1>
-    <base-input v-model='inputValue' @change="inputChange"></base-input>
+    <base-input v-model="inputValue" placeholder="请输入文本" class="test" type="password" @change="inputChange"></base-input>
   </div>
 </template>
 
@@ -19,7 +19,7 @@ export default {
   methods: {
     inputChange (value) {
       console.log('changeValue', value)
-    }
+    } 
   }
 }
 </script>

@@ -5,6 +5,7 @@
       <li><router-link to="/">Home</router-link></li>
       <li><router-link to="/about">About</router-link></li>
       <li><router-link to="/v-modle">v-modle</router-link></li>
+      <li><router-link to="/myVMode">自定义 v-modle</router-link></li>
     </ul>
   </div>
 </template>

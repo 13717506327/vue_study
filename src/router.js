@@ -23,6 +23,12 @@ export default new Router({
       path: '/v-modle',
       name: 'vModle',
       component: () => import(/* webpackChunkName: "vModle" */ './views/VModel.vue')
+    },
+    {
+      path: '/myVMode',
+      name: 'MyVMode',
+      component: () => import(/* webpackChunkName: "MyVMode" */ './views/MyVMode.vue')
     }
+
   ]
 })
