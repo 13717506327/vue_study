@@ -19,6 +19,6 @@ yarn run build
 ```
 yarn run lint
 ```
-### v-model在组件上的使用 // mer-------ge 测试
+### v-model在组件上的使用 
 
 
