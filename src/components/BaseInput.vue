@@ -8,21 +8,19 @@
 
 <script>
 export default {
-  props:['value'],
-  data(){
-    return {
-      
-    }
+  props: ['value'],
+  data () {
+    return {}
   },
-  methods:{
-    input($event){
+  methods: {
+    input ($event) {
       console.log($event.target.value)
-      this.$emit('input', $event.target.value);
+      this.$emit('input', $event.target.value)
     },
-    change($event){
+    change ($event) {
       this.$emit('change', $event.target.value)
     }
-    
+
   }
 }
 </script>
@@ -30,4 +28,3 @@ export default {
 <style lang="sass" scoped>
 
 </style>
-

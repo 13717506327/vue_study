@@ -8,24 +8,22 @@
 <script>
 import BaseInput from '@/components/BaseInput'
 export default {
-  components:{
+  components: {
     BaseInput
   },
-  data(){
+  data () {
     return {
-      inputValue:''
+      inputValue: ''
     }
   },
-  methods:{
-    inputChange(value){
-      console.log('changeValue',value)
+  methods: {
+    inputChange (value) {
+      console.log('changeValue', value)
     }
   }
-  
 }
 </script>
 
 <style lang="sass" scoped>
 
 </style>
-
